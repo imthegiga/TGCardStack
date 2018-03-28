@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'Library which shows UICollectionViewCells as Stack of the Cards.'
   
-  s.description      = 'Use custom layout for UICollectionView, it'll keep all cells stacked but last at the bottom.'
+  s.description      = 'Use custom layout for UICollectionView, it will keep all cells stacked but last at the bottom.'
  
   s.homepage         = 'https://github.com/imthegiga/TGCardStack'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
