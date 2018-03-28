@@ -1,6 +1,9 @@
 # TGCardStack
 Library which shows UICollectionViewCells as Stack of the Cards.
 
+### Please note this is limited replica of [HFCardCollectionViewLayout](https://github.com/hfrahmann/HFCardCollectionViewLayout) with modified UICollectionViewCell position based on requirement.
+
+
 
 Pod
 ------
