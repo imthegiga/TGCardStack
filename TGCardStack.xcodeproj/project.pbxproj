@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C631ABD206B2A4E000536E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C631ABC206B2A4E000536E0 /* AppDelegate.swift */; };
+		6C631ABF206B2A4E000536E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C631ABE206B2A4E000536E0 /* ViewController.swift */; };
+		6C631AC2206B2A4E000536E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C631AC0206B2A4E000536E0 /* Main.storyboard */; };
+		6C631AC4206B2A4E000536E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C631AC3206B2A4E000536E0 /* Assets.xcassets */; };
+		6C631AC7206B2A4E000536E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C631AC5206B2A4E000536E0 /* LaunchScreen.storyboard */; };
+		6C631AD3206B2AAF000536E0 /* TGCardStackCVLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C631ACF206B2AAF000536E0 /* TGCardStackCVLayoutDelegate.swift */; };
+		6C631AD4206B2AAF000536E0 /* TGCardStackCVLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C631AD0206B2AAF000536E0 /* TGCardStackCVLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C631AB9206B2A4E000536E0 /* TGCardStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCardStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C631ABC206B2A4E000536E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C631ABE206B2A4E000536E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C631AC1206B2A4E000536E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C631AC3206B2A4E000536E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C631AC6206B2A4E000536E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C631AC8206B2A4E000536E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C631ACF206B2AAF000536E0 /* TGCardStackCVLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCardStackCVLayoutDelegate.swift; sourceTree = "<group>"; };
+		6C631AD0206B2AAF000536E0 /* TGCardStackCVLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCardStackCVLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C631AB6206B2A4E000536E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C631AB0206B2A4E000536E0 = {
+			isa = PBXGroup;
+			children = (
+				6C631ABB206B2A4E000536E0 /* TGCardStack */,
+				6C631ABA206B2A4E000536E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C631ABA206B2A4E000536E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C631AB9206B2A4E000536E0 /* TGCardStack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C631ABB206B2A4E000536E0 /* TGCardStack */ = {
+			isa = PBXGroup;
+			children = (
+				6C631ABC206B2A4E000536E0 /* AppDelegate.swift */,
+				6C631ABE206B2A4E000536E0 /* ViewController.swift */,
+				6C631AC0206B2A4E000536E0 /* Main.storyboard */,
+				6C631ACE206B2A94000536E0 /* Library */,
+				6C631AC3206B2A4E000536E0 /* Assets.xcassets */,
+				6C631AC5206B2A4E000536E0 /* LaunchScreen.storyboard */,
+				6C631AC8206B2A4E000536E0 /* Info.plist */,
+			);
+			path = TGCardStack;
+			sourceTree = "<group>";
+		};
+		6C631ACE206B2A94000536E0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6C631AD0206B2AAF000536E0 /* TGCardStackCVLayout.swift */,
+				6C631ACF206B2AAF000536E0 /* TGCardStackCVLayoutDelegate.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C631AB8206B2A4E000536E0 /* TGCardStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C631ACB206B2A4E000536E0 /* Build configuration list for PBXNativeTarget "TGCardStack" */;
+			buildPhases = (
+				6C631AB5206B2A4E000536E0 /* Sources */,
+				6C631AB6206B2A4E000536E0 /* Frameworks */,
+				6C631AB7206B2A4E000536E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCardStack;
+			productName = TGCardStack;
+			productReference = 6C631AB9206B2A4E000536E0 /* TGCardStack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C631AB1206B2A4E000536E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hong Leong Bank Berhad";
+				TargetAttributes = {
+					6C631AB8206B2A4E000536E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C631AB4206B2A4E000536E0 /* Build configuration list for PBXProject "TGCardStack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C631AB0206B2A4E000536E0;
+			productRefGroup = 6C631ABA206B2A4E000536E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C631AB8206B2A4E000536E0 /* TGCardStack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C631AB7206B2A4E000536E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C631AC7206B2A4E000536E0 /* LaunchScreen.storyboard in Resources */,
+				6C631AC4206B2A4E000536E0 /* Assets.xcassets in Resources */,
+				6C631AC2206B2A4E000536E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C631AB5206B2A4E000536E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C631AD4206B2AAF000536E0 /* TGCardStackCVLayout.swift in Sources */,
+				6C631ABF206B2A4E000536E0 /* ViewController.swift in Sources */,
+				6C631ABD206B2A4E000536E0 /* AppDelegate.swift in Sources */,
+				6C631AD3206B2AAF000536E0 /* TGCardStackCVLayoutDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C631AC0206B2A4E000536E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C631AC1206B2A4E000536E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C631AC5206B2A4E000536E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C631AC6206B2A4E000536E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C631AC9206B2A4E000536E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C631ACA206B2A4E000536E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C631ACC206B2A4E000536E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3M59L34B7;
+				INFOPLIST_FILE = TGCardStack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.thegiga.TGCardStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C631ACD206B2A4E000536E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3M59L34B7;
+				INFOPLIST_FILE = TGCardStack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.thegiga.TGCardStack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C631AB4206B2A4E000536E0 /* Build configuration list for PBXProject "TGCardStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C631AC9206B2A4E000536E0 /* Debug */,
+				6C631ACA206B2A4E000536E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C631ACB206B2A4E000536E0 /* Build configuration list for PBXNativeTarget "TGCardStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C631ACC206B2A4E000536E0 /* Debug */,
+				6C631ACD206B2A4E000536E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C631AB1206B2A4E000536E0 /* Project object */;
+}
