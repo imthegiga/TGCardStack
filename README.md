@@ -25,7 +25,7 @@ Usage
 In Inspector Builder for UICollectionView set layout as Custom & use class as TGCardStackCVLayout like shown below
 ![3](https://github.com/imthegiga/TGCardStack/blob/master/Images/3.png)
 
-Implement protocol stub from TGCardStackDelegate class. For more explanation please check the example.
+Implement protocol stub from TGCardStackDelegate. For more explanation please check the example.
 
 Screenshots
 ------
