@@ -35,9 +35,9 @@ open class TGCardStackCVLayoutAttributes: UICollectionViewLayoutAttributes {
 open class TGCardStackCVLayout: UICollectionViewLayout, UIGestureRecognizerDelegate {
     
     // MARK: Public Variables
-    var maxYOfCollectionView: CGFloat = 0
-    var totalNumberOfCards: Int = 0
-    var cardStackDelegate: TGCardStackDelegate?
+    public var maxYOfCollectionView: CGFloat = 0
+    public var totalNumberOfCards: Int = 0
+    public var cardStackDelegate: TGCardStackDelegate?
     
     /// Only cards with index equal or greater than firstMovableIndex can be moved through the collectionView.
     ///
