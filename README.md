@@ -3,6 +3,7 @@ Library which shows UICollectionViewCells as Stack of the Cards.
 
 ### Please note this is limited replica of [HFCardCollectionViewLayout](https://github.com/hfrahmann/HFCardCollectionViewLayout) with modified UICollectionViewCell position based on requirement.
 
+This library does not work with multiple sections as mentioned in [HFCardCollectionViewLayout](https://github.com/hfrahmann/HFCardCollectionViewLayout)
 
 
 Pod
