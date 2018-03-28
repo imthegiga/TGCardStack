@@ -124,7 +124,10 @@ extension ViewController {
     
     func setupProperties() {
         let cardLayoutOptions = CardLayoutSetupOptions()
+        
+        //Important if you want to get callbacks for validation
         self.cardFlowLayout?.cardStackDelegate = self
+        
         self.cardFlowLayout?.totalNumberOfCards = numberOfCards
         self.cardFlowLayout?.maxYOfCollectionView = self.collectionView.frame.maxY
         self.cardFlowLayout?.firstMovableIndex = cardLayoutOptions.firstMovableIndex
