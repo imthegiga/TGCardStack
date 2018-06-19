@@ -38,6 +38,8 @@ open class TGCardStackCVLayout: UICollectionViewLayout, UIGestureRecognizerDeleg
     public var maxYOfCollectionView: CGFloat = 0
     public var totalNumberOfCards: Int = 0
     public var cardStackDelegate: TGCardStackDelegate?
+    public var shouldStickCardToBottom: Bool = true
+    public var validateOnLastCard: Bool = true
     
     /// Only cards with index equal or greater than firstMovableIndex can be moved through the collectionView.
     ///
@@ -695,7 +697,7 @@ open class TGCardStackCVLayout: UICollectionViewLayout, UIGestureRecognizerDeleg
                     return
                 }
                 
-                if indexPath.item == totalNumberOfCards - 1 {
+                if indexPath.item == totalNumberOfCards - 1 && validateOnLastCard {
                     
                     if (cardStackDelegate == nil || !cardStackDelegate!.areAllCellFilled().0) {
                      
@@ -822,7 +824,7 @@ open class TGCardStackCVLayout: UICollectionViewLayout, UIGestureRecognizerDeleg
         let lastCardPosition = (self.spaceAtTopForBackgroundView / 0.75) + self.cardCollectionCellSize.height - self.cardHeadHeight
         let prevCardPosition = self.spaceAtTopForBackgroundView + self.cardHeadHeight * CGFloat(currentIndex)
         
-        let currentFrame = CGRect(x: 0, y: (currentIndex == totalNumberOfCards - 1 && maxYOfCollectionView != 0) ? (lastCardPosition < prevCardPosition ? prevCardPosition : lastCardPosition) : prevCardPosition, width: self.cardCollectionCellSize.width, height: self.cardCollectionCellSize.height)
+        let currentFrame = CGRect(x: 0, y: (currentIndex == totalNumberOfCards - 1 && maxYOfCollectionView != 0 && shouldStickCardToBottom) ? (lastCardPosition < prevCardPosition ? prevCardPosition : lastCardPosition) : prevCardPosition, width: self.cardCollectionCellSize.width, height: self.cardCollectionCellSize.height)
         
         if(self.contentOffsetTop >= 0 && self.contentOffsetTop <= self.spaceAtTopForBackgroundView) {
             attribute.frame = currentFrame
